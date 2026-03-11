@@ -47,7 +47,7 @@ $total_cells = $1;
 }
 
 #--- Extracting individual cells count ---
-if($line =~ /^\s+(\d+)\s+(\$_[A-Z0-9_]+)\s*$/){
+if($line =~ /^\s+(\d+)\s+(sky130_\w+)\s*$/){
 $cells{$2}=$1;
 }
 }

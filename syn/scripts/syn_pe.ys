@@ -20,10 +20,16 @@ flatten
 opt
 
 # Step 6: Synthesize to Generic cells (Actually mapping should be done using Sky130, SKY130 is in openlane, we will map it there directly
-synth -top PE 
+synth -top PE
 
+#for converting Flipflops logic to standard cells, if not done. OpenSTA cannot understand always block statements. For that we use dfflibmap
+dfflibmap -liberty /home/anils_0611/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+#Using abc to map with SKY130, to run openSTA
+abc -liberty /home/anils_0611/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib -dff
+opt_clean -purge
 # Step 7: Print statistics
 stat
 
 # Step 8: Write synthesized netlist
-write_verilog /home/anils_0611/vlsi_projects/pe_asic/syn/output/PE_netlist.v
+write_verilog -noattr -simple-lhs /home/anils_0611/vlsi_projects/pe_asic/syn/output/PE_netlist.v

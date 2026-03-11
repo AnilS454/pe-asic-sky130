@@ -1,0 +1,29 @@
+#read_verilog -sv /home/anils_0611/vlsi_projects/pe_asic/rtl/PE.sv
+# ============================================
+# Yosys Synthesis Script — PE Module
+# Target: SKY130 HD Standard Cell Library
+# ============================================
+
+# Step 1: Read the SystemVerilog source
+read_verilog -sv /home/anils_0611/vlsi_projects/pe_asic/rtl/PE.sv
+
+# Step 2: Set top module and elaborate
+hierarchy -check -top PE
+
+# Step 3: Convert always blocks to logic
+proc
+
+# Step 4: Flatten hierarchy
+flatten
+
+# Step 5: Optimize
+opt
+
+# Step 6: Synthesize to Generic cells (Actually mapping should be done using Sky130, SKY130 is in openlane, we will map it there directly
+synth -top PE 
+
+# Step 7: Print statistics
+stat
+
+# Step 8: Write synthesized netlist
+write_verilog /home/anils_0611/vlsi_projects/pe_asic/syn/output/PE_netlist.v

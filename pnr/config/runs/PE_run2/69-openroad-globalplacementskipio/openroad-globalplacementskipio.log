@@ -1,0 +1,32 @@
+Reading OpenROAD database at '/home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/PE_run2/66-openroad-generatepdn/PE.odb'…
+Reading library file at '/home/anils_0611/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading design constraints file at '/nix/store/9hhfv2x4r4x6v55799pa58jc2yni6awy-python3.11-openlane-2.3.10/lib/python3.11/site-packages/openlane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 1.0
+[INFO] Setting input delay to: 1.0
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
++ global_placement -density 0.65 -skip_io -pad_right 0 -pad_left 0 -init_wirelength_coef 0.25
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  5.520 10.880 ) ( 115.000 119.680 ) um
+[INFO GPL-0006] NumInstances:              1002
+[INFO GPL-0007] NumPlaceInstances:          754
+[INFO GPL-0008] NumFixedInstances:          248
+[INFO GPL-0009] NumDummyInstances:            0
+[INFO GPL-0010] NumNets:                    775
+[INFO GPL-0011] NumPins:                   3159
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 120.565 131.285 ) um
+[INFO GPL-0013] CoreBBox: (  5.520 10.880 ) ( 115.000 119.680 ) um
+[INFO GPL-0016] CoreArea:             11911.424 um^2
+[INFO GPL-0017] NonPlaceInstsArea:      510.490 um^2
+[INFO GPL-0018] PlaceInstsArea:        8396.803 um^2
+[INFO GPL-0019] Util:                    73.650 %
+[INFO GPL-0020] StdInstsArea:          8396.803 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[ERROR GPL-0302] Use a higher -density or re-floorplan with a larger core area.
+Given target density: 0.65
+Suggested target density: 0.74
+Error: gpl.tcl, 79 GPL-0302

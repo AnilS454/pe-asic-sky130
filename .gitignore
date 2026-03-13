@@ -1,0 +1,17 @@
+# OpenLane run outputs — too large for GitHub
+pnr/config/runs/
+pnr/runs/
+
+# Simulation outputs
+tb/*.vcd
+tb/sim
+
+# Synthesis logs (keep scripts, ignore outputs)
+syn/output/
+
+# KLayout files
+*.lyp
+
+# Nix
+.nix-*
+result

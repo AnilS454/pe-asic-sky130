@@ -1,1 +1,0 @@
-openroad -exit -no_splash -metrics /home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/PE_run2/104-openroad-stamidpnr-1/or_metrics_out.json /nix/store/9hhfv2x4r4x6v55799pa58jc2yni6awy-python3.11-openlane-2.3.10/lib/python3.11/site-packages/openlane/scripts/openroad/sta/corner.tcl

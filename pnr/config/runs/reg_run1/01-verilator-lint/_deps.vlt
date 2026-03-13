@@ -1,0 +1,5 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/reg_run1/tmp/f5e3da5e370741dba8b1adff32579978.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/reg_run1/tmp/f5e3da5e370741dba8b1adff32579978.bb.v"

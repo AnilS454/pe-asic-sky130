@@ -1,0 +1,140 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/anils_0611/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/anils_0611/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/anils_0611/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/reg_run2/34-openroad-cts/PE.odb'…
+Reading design constraints file at '/nix/store/9hhfv2x4r4x6v55799pa58jc2yni6awy-python3.11-openlane-2.3.10/lib/python3.11/site-packages/openlane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 1
+[INFO] Setting input delay to: 1
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO] Setting RC values…
+[INFO RSZ-0094] Found 14 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 14 out of 14 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |            | Endpts | Endpt
+---------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |   -1.630 |      -13.0 |     14 | _1427_/D
+       10 |       0 |       4 |        6 |      0 |     2 |   -1.538 |      -12.3 |     14 | _1426_/D
+       20 |       0 |      11 |        9 |      0 |     4 |   -1.176 |       -8.8 |     14 | _1427_/D
+       30 |       0 |      14 |       19 |      0 |     7 |   -1.026 |       -7.7 |     14 | _1427_/D
+       40 |       0 |      18 |       26 |      0 |    10 |   -0.970 |       -7.8 |     14 | _1426_/D
+       50 |       0 |      24 |       28 |      0 |    13 |   -0.950 |       -7.3 |     14 | _1431_/D
+       60 |       0 |      32 |       31 |      0 |    14 |   -0.823 |       -6.3 |     14 | _1427_/D
+       70 |       0 |      41 |       31 |      0 |    15 |   -0.818 |       -6.3 |     14 | _1427_/D
+       80 |       0 |      48 |       34 |      0 |    17 |   -0.811 |       -5.9 |     14 | _1427_/D
+       90 |       0 |      53 |       38 |      0 |    20 |   -0.757 |       -5.7 |     14 | _1427_/D
+      100 |       0 |      57 |       50 |      0 |    22 |   -0.632 |       -4.6 |     14 | _1427_/D
+      110 |       0 |      63 |       56 |      0 |    23 |   -0.834 |       -5.4 |     14 | _1427_/D
+      120 |       0 |      67 |       63 |      0 |    26 |   -0.881 |       -6.1 |     14 | _1427_/D
+      130 |       0 |      71 |       73 |      0 |    28 |   -0.891 |       -6.4 |     14 | _1427_/D
+      140 |       0 |      77 |       81 |      0 |    29 |   -0.793 |       -5.8 |     14 | _1427_/D
+      150 |       0 |      82 |       87 |      1 |    30 |   -0.747 |       -5.6 |     14 | _1427_/D
+      151 |       0 |      63 |       66 |      0 |    22 |   -0.624 |       -4.6 |     14 | _1431_/D
+      160 |       0 |      66 |       70 |      0 |    25 |   -0.816 |       -4.9 |     14 | _1427_/D
+      170 |       0 |      70 |       81 |      0 |    26 |   -0.839 |       -5.5 |     14 | _1427_/D
+      180 |       0 |      79 |       81 |      1 |    26 |   -0.785 |       -5.1 |     14 | _1427_/D
+      190 |       0 |      87 |       84 |      1 |    27 |   -0.736 |       -4.8 |     14 | _1427_/D
+      195 |       0 |      70 |       74 |      0 |    22 |   -0.624 |       -4.6 |     14 | _1431_/D
+      200 |       0 |      73 |       74 |      0 |    23 |   -0.671 |       -4.7 |     14 | _1427_/D
+      210 |       0 |      77 |       79 |      0 |    27 |   -0.802 |       -5.8 |     14 | _1427_/D
+      220 |       0 |      84 |       82 |      0 |    29 |   -0.855 |       -6.1 |     14 | _1427_/D
+      230 |       0 |      90 |       91 |      0 |    29 |   -0.682 |       -4.6 |     14 | _1427_/D
+      233 |       0 |      75 |       81 |      0 |    22 |   -0.624 |       -4.6 |     14 | _1431_/D
+      240 |       0 |      81 |       81 |      0 |    22 |   -0.709 |       -4.7 |     14 | _1427_/D
+      250 |       0 |      88 |       83 |      0 |    24 |   -0.858 |       -4.7 |     14 | _1427_/D
+      260 |       0 |      94 |       85 |      1 |    26 |   -1.001 |       -6.3 |     14 | _1427_/D
+      270 |       0 |     102 |       89 |      1 |    26 |   -0.779 |       -4.3 |     14 | _1427_/D
+      280 |       0 |     110 |       94 |      1 |    26 |   -0.724 |       -3.8 |     14 | _1427_/D
+      284 |       0 |      85 |       87 |      0 |    22 |   -0.624 |       -4.6 |     14 | _1431_/D
+      290 |       0 |      90 |       87 |      0 |    22 |   -0.674 |       -4.5 |     14 | _1427_/D
+      300 |       0 |      99 |       89 |      0 |    22 |   -0.846 |       -4.7 |     14 | _1427_/D
+      310 |       0 |     107 |       91 |      1 |    22 |   -0.792 |       -4.3 |     14 | _1427_/D
+      320 |       0 |     116 |       93 |      1 |    22 |   -0.777 |       -4.2 |     14 | _1427_/D
+      330 |       0 |     119 |      104 |      1 |    24 |   -0.762 |       -4.1 |     14 | _1427_/D
+      335 |       0 |      94 |       97 |      0 |    22 |   -0.624 |       -4.6 |     14 | _1431_/D
+      340 |       0 |      98 |       97 |      0 |    22 |   -0.674 |       -4.6 |     14 | _1427_/D
+      350 |       0 |     107 |       99 |      0 |    22 |   -0.846 |       -4.6 |     14 | _1427_/D
+      360 |       0 |     113 |      106 |      0 |    23 |   -0.816 |       -5.1 |     14 | _1427_/D
+      370 |       0 |     117 |      115 |      1 |    24 |   -0.832 |       -5.6 |     14 | _1427_/D
+      377 |       0 |     102 |      106 |      0 |    22 |   -0.624 |       -4.6 |     14 | _1431_/D
+      380 |       0 |     102 |      110 |      0 |    22 |   -0.766 |       -5.2 |     14 | _1427_/D
+      390 |       0 |     107 |      115 |      0 |    25 |   -0.740 |       -5.4 |     14 | _1427_/D
+      400 |       0 |     112 |      122 |      1 |    26 |   -0.672 |       -4.9 |     14 | _1427_/D
+      405 |       0 |     107 |      113 |      0 |    22 |   -0.624 |       -4.6 |     14 | _1431_/D
+      410 |       0 |     109 |      117 |      0 |    22 |   -0.819 |       -5.1 |     14 | _1427_/D
+      420 |       0 |     115 |      121 |      0 |    24 |   -0.904 |       -6.3 |     14 | _1427_/D
+      430 |       0 |     122 |      129 |      0 |    24 |   -0.958 |       -7.2 |     14 | _1431_/D
+      440 |       0 |     128 |      135 |      1 |    25 |   -0.854 |       -6.2 |     14 | _1431_/D
+      450 |       0 |     135 |      139 |      1 |    26 |   -0.854 |       -6.0 |     14 | _1431_/D
+      454 |       0 |     115 |      124 |      0 |    22 |   -0.624 |       -4.6 |     14 | _1431_/D
+      460 |       0 |     118 |      124 |      0 |    24 |   -0.716 |       -5.1 |     14 | _1431_/D
+      470 |       0 |     126 |      128 |      0 |    24 |   -0.677 |       -4.8 |     14 | _1431_/D
+      475 |       0 |     117 |      126 |      0 |    22 |   -0.624 |       -4.6 |     13 | _1431_/D
+      480 |       0 |     120 |      126 |      0 |    23 |   -0.624 |       -4.1 |     13 | _1431_/D
+      483 |       0 |     123 |      126 |      0 |    23 |   -0.624 |       -4.1 |     11 | _1431_/D
+      484 |       0 |     123 |      126 |      0 |    23 |   -0.624 |       -4.1 |     10 | _1431_/D
+      485 |       0 |     123 |      126 |      0 |    23 |   -0.624 |       -4.1 |      9 | _1431_/D
+      486 |       0 |     123 |      126 |      0 |    23 |   -0.624 |       -4.1 |      8 | _1431_/D
+      487 |       0 |     123 |      126 |      0 |    23 |   -0.624 |       -4.1 |      7 | _1431_/D
+     488* |       0 |     123 |      126 |      0 |    23 |   -0.624 |       -4.1 |      9 | _1431_/D
+     490* |       0 |     124 |      126 |      0 |    23 |   -0.624 |       -4.1 |      9 | _1431_/D
+     496* |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+     497* |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+     498* |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+     499* |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+     500* |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+     500* |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+     501* |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+     502* |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+     503* |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+    final |       0 |     130 |      126 |      0 |    23 |   -0.612 |       -3.8 |      9 | _1431_/D
+---------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 30 buffers.
+[INFO RSZ-0041] Resized 130 instances.
+[INFO RSZ-0043] Swapped pins on 23 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0046] Found 30 endpoints with hold violations.
+Iteration | Resized | Buffers | Cloned Gates |   WNS   |   TNS   | Endpoint
+---------------------------------------------------------------------------
+        0 |       0 |       0 |            0 |   0.053 |   0.000 | _1425_/D
+    final |       0 |      35 |            0 |   0.100 |   0.000 | _1375_/D
+---------------------------------------------------------------------------
+[INFO RSZ-0032] Inserted 35 hold buffers.
+Placement Analysis
+---------------------------------
+total displacement        550.1 u
+average displacement        0.4 u
+max displacement            9.7 u
+original HPWL           20135.3 u
+legalized HPWL          21320.2 u
+delta HPWL                    6 %
+
+[INFO DPL-0020] Mirrored 430 instances
+[INFO DPL-0021] HPWL before           21320.2 u
+[INFO DPL-0022] HPWL after            20420.1 u
+[INFO DPL-0023] HPWL delta               -4.2 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               106     397.88
+  Tap cell                                302     377.86
+  Clock buffer                             12     253.99
+  Timing Repair Buffer                    197    1410.10
+  Inverter                                 22     105.10
+  Clock inverter                            4      50.05
+  Sequential cell                          67    1350.04
+  Multi-Input combinational cell          665    6449.94
+  Total                                  1375   10394.97
+Writing OpenROAD database to '/home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/reg_run2/36-openroad-resizertimingpostcts/PE.odb'…
+Writing netlist to '/home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/reg_run2/36-openroad-resizertimingpostcts/PE.nl.v'…
+Writing powered netlist to '/home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/reg_run2/36-openroad-resizertimingpostcts/PE.pnl.v'…
+Writing layout to '/home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/reg_run2/36-openroad-resizertimingpostcts/PE.def'…
+Writing timing constraints to '/home/anils_0611/vlsi_projects/pe_asic/pnr/config/runs/reg_run2/36-openroad-resizertimingpostcts/PE.sdc'…

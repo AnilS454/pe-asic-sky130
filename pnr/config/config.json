@@ -2,7 +2,7 @@
     "DESIGN_NAME": "PE",
     "VERILOG_FILES": "dir::PE.sv",
     "CLOCK_PORT": "clk",
-    "CLOCK_PERIOD": 5.0,
+    "CLOCK_PERIOD": 4,
     "DESIGN_IS_CORE": false,
     "FP_SIZING": "relative",
     "FP_CORE_UTIL": 40,
